@@ -22,8 +22,7 @@ git add          # добавить изменения в индекс
 git commit -m "" # зафиксировать изменения с комментарием
 git push         # отправить изменения на сервер
 git clone        # клонировать удалённый репозиторий
-  ```
-    ---
+  ```  
 
   Теперь можно зарегистрироваться на __GitHub__
   Для этого можно перейти по [ссылке](https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home) для регистрации

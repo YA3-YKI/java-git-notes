@@ -73,11 +73,11 @@ Modified - файл имеет отличия от последней сохра
 Tracked - все файлы в которых git отслеживается изменения. Файлы в состоянии staged и modified так же имею статус tracked 
 
 ```mermaid
-  graph TD;
-      A-->B;
-      A-->C;
-      B-->D;
-      C-->D;
+  flowchart TD;
+      A[untracked]--git add-->B[staged + tracked];
+      B--git commit-->C[tracked];
+      C--изменения-->D[modified];
+      D--git add-->B;
 ```
 
 ** Сообщения к коммитам **
